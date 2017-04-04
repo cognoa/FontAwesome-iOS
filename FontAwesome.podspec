@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = "FontAwesome"
-  s.version      = "4.5.0"
+  s.version      = "4.7.0"
   s.summary      = "Add FontAwesome icons to iOS."
-  s.homepage     = "https://github.com/paramaggarwal/FontAwesome-iOS"
+  s.homepage     = "https://github.com/cognoa/FontAwesome-iOS"
   s.license      = {
     :type => 'Private',
     :text => <<-LICENSE
@@ -10,12 +10,12 @@ This project uses the FontAwesome fix made by Pit Garbe that you can find at htt
     LICENSE
   }
   s.author       = { "Alex Usbergo" => "alexakadrone@gmail.com" }
-  s.source       = { :git => "https://github.com/paramaggarwal/FontAwesome-iOS.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/cognoa/FontAwesome-iOS.git", :tag => s.version.to_s }
   s.ios.deployment_target = '7.0'
   s.tvos.deployment_target = '9.0'
   s.source_files = '*.{h,m}'
   s.exclude_files = 'Demo'
-  s.resources = "Resources/*.ttf"
+  s.resources = "Resources/*.otf"
   s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
   s.requires_arc = true
 end
