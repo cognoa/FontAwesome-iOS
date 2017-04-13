@@ -489,9 +489,9 @@ typedef NS_ENUM(NSInteger, FAIcon) {
 	FAvine,
 	FAwechat,
 	FAweixin,
-    FAwordpress,    
+    FAwordpress,
 	FAyahoo,
-    
+
     /* FontAwesome ver 4.2.0 */
     FAangellist,
     FAareaChart,
@@ -536,7 +536,7 @@ typedef NS_ENUM(NSInteger, FAIcon) {
     FAtwitch,
     FAwifi,
     FAyelp,
-    
+
     /* FontAwesome ver 4.3.0 */
     FAbed,
     FAbuysellads,
@@ -578,7 +578,7 @@ typedef NS_ENUM(NSInteger, FAIcon) {
     FAvenusDouble,
     FAvenusMars,
     FAviacoin,
-    
+
     /* FontAwesome ver 4.4.0 */
     FA500px,
     FAamazon,
@@ -646,7 +646,7 @@ typedef NS_ENUM(NSInteger, FAIcon) {
     FAvimeo,
     FAwikipediaW,
     FAyCombinator,
-    
+
     /* FontAwesome ver 4.5.0 */
     FAbluetooth,
     FAbluetoothB,
@@ -667,8 +667,78 @@ typedef NS_ENUM(NSInteger, FAIcon) {
     FAshoppingBasket,
     FAstopCircle,
     FAstopCircleO,
-    FAusb
-    
+    FAusb,
+
+    /* FontAwesome ver 4.6.0 */
+    FAamericanSignLanguageInterpreting,
+    FAassistiveListeningSystems,
+    FAaudioDescription,
+    FAblind,
+    FAbraille,
+    FAdeaf,
+    FAenvira,
+    FAfirstOrder,
+    FAgitlab,
+    FAglide,
+    FAglideG,
+    FAlowVision,
+    FAquestionCircleO,
+    FAsignLanguage,
+    FAsnapchat,
+    FAsnapchatGhost,
+    FAsnapchatSquare,
+    FAthemeIsle,
+    FAuniversalAccess,
+    FAviadeo,
+    FAviadeoSquare,
+    FAvolumeControlPhone,
+    FAwheelchairAlt,
+    FAwpBeginner,
+    FAwpForms,
+    FAyoast,
+
+    /* FontAwesome ver 4.7.0 */
+    FAaddressBook,
+    FAaddressBookO,
+    FAaddressCard,
+    FAaddressCardO,
+    FAbandcamp,
+    FAbath,
+    FAeercast,
+    FAenvelopeOpen,
+    FAenvelopeOpenO,
+    FAetsy,
+    FAfreeCodeCamp,
+    FAgrav,
+    FAhandshakeO,
+    FAidBadge,
+    FAidCard,
+    FAidCardO,
+    FAimdb,
+    FAlinode,
+    FAmeetup,
+    FAmicrochip,
+    FApodcast,
+    FAquora,
+    FAravelry,
+    FAshower,
+    FAsnowflakeO,
+    FAsuperpowers,
+    FAtelegram,
+    FAthermometerEmpty,
+    FAthermometerFull,
+    FAthermometerHalf,
+    FAthermometerQuarter,
+    FAthermometerThreeQuarters,
+    FAuserCircle,
+    FAuserCircleO,
+    FAuserO,
+    FAwindowClose,
+    FAwindowCloseO,
+    FAwindowMaximize,
+    FAwindowMinimize,
+    FAwindowRestore,
+    FAwpExplorer,
 };
 
 
@@ -682,11 +752,11 @@ typedef NS_ENUM(NSInteger, FAIcon) {
 + (FAIcon)fontAwesomeEnumForIconIdentifier:(NSString*)string;
 
 /**
- @abstract Returns the font-awesome character associated to the icon enum passed as argument 
+ @abstract Returns the font-awesome character associated to the icon enum passed as argument
  */
 + (NSString*)fontAwesomeIconStringForEnum:(FAIcon)value;
 
-/* 
+/*
  @abstract Returns the font-awesome character associated to the font-awesome identifier.
  @discussion The list of identifiers can be found here: http://fortawesome.github.com/Font-Awesome/#all-icons
  */
